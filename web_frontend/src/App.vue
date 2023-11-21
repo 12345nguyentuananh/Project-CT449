@@ -8,4 +8,8 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.container{
+   max-width: 100%;
+}
+</style>

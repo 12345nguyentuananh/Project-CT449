@@ -1,11 +1,15 @@
 <template>
+     
    <div class="container">
+      <div class="box">
+
+</div>
       <nav class="navbar navbar-expand-lg navbar-light">
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
-
+       
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item active">
@@ -96,31 +100,37 @@ export default {
 
 <style scoped>
 .container {
-   margin: 2px auto;
+  
+   padding :0px 40px 0px 20px ;
+   max-width: 100%;
+   z-index: 50;
+   position : fixed; 
+
 }
 
 
 .navbar {
-   border-top: 1px solid #E38B29;
-   border-bottom: 1px solid #E38B29;
+   border-top: 1px solid #169008;
+   border-bottom: 1px solid #169008;
    border-right: 0;
    border-left: 0;
+   background-color: #169008;
 }
 
 .navbar .nav-item {
-   color: #E38B29;
+   color: #169008;
    position: relative;
 }
 
 .navbar .nav-item a {
    font-family: "Open Sans", sans-serif;
-   color: #E38B29 !important;
+   color: #fff !important;
    text-align: left;
    font-size: 16px;
 }
 
 .navbar .nav-item a:hover {
-   color: #E38B29 !important;
+   color: #fff !important;
    border-radius: 10px;
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -170,7 +180,14 @@ export default {
 
 
 i {
-   color: #E38B29;
+   color: #169008;
+}
+
+.box{
+   background-color: #fff;
+   height:40px;
+   width:100%;
+   margin-top :-30px;
 }
 </style>
 

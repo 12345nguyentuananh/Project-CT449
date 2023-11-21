@@ -60,26 +60,26 @@ export default {
 
 <style scoped>
 .navbar {
-   border-top: 1px solid #E38B29;
-   border-bottom: 1px solid #E38B29;
+   border-top: 1px solid #169008;
+   border-bottom: 1px solid #169008;
    border-right: 0;
    border-left: 0;
 }
 
 .navbar .nav-item {
-   color: #E38B29;
+   color: #169008;
    position: relative;
 }
 
 .navbar .nav-item a {
    font-family: "Open Sans", sans-serif;
-   color: #E38B29 !important;
+   color: #169008 !important;
    text-align: left;
    font-size: 16px;
 }
 
 .navbar .nav-item a:hover {
-   color: #E38B29 !important;
+   color: #169008 !important;
    border-radius: 10px;
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -95,7 +95,7 @@ export default {
 }
 
 i {
-   color: #E38B29;
+   color: #169008;
 }
 
 .logout-btn {

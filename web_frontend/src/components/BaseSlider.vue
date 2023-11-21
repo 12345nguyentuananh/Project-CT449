@@ -3,10 +3,13 @@
       <div class="slider-content">
          <Splide :options="options" aria-label="My Favorite Images">
             <SplideSlide>
-               <img src="http://cdn.shopify.com/s/files/1/0538/7249/2712/collections/Huffkins_Biscuits_1200x1200.jpg?v=1665651984" alt="Sample 2" />
+               <img src="vegetables\img8.png" alt="Sample 1" />
             </SplideSlide>
             <SplideSlide>
-               <img src="https://cdn.shopify.com/s/files/1/0631/8804/1949/collections/collection-banner-2_d8208d36-220a-4459-91d6-174e9fb64f0e.jpg?v=1649063431&width=1500" alt="Sample 1" />
+               <img src="vegetables\img9.png" alt="Sample 1" />
+            </SplideSlide>
+            <SplideSlide>
+               <img src="vegetables\img7.png" alt="Sample 1" />
             </SplideSlide>
 
          </Splide>

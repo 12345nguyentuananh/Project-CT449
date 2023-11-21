@@ -4,7 +4,7 @@
          <div class="thumb">
             <div class="image">
                <img
-                  src="../images/home/1.jpg"
+                  src="vegetables\banner.jpg"
                   alt="">
             </div>
          </div>
@@ -13,7 +13,17 @@
          <div class="thumb">
             <div class="image">
                <img
-                  src="../images/home/2.jpg"
+               src="vegetables\banner5.jpg"
+                  alt="">
+            </div>
+         </div>
+      </div>
+    
+      <div class="product-grid col">
+         <div class="thumb">
+            <div class="image">
+               <img
+               src="vegetables\banner3.jpg"
                   alt="">
             </div>
          </div>
@@ -22,16 +32,7 @@
          <div class="thumb">
             <div class="image">
                <img
-                  src="../images/home/3.jpg"
-                  alt="">
-            </div>
-         </div>
-      </div>
-      <div class="product-grid col">
-         <div class="thumb">
-            <div class="image">
-               <img
-                  src="../images/home/4.jpg"
+               src="vegetables\banner4.jpg"
                   alt="">
             </div>
          </div>
@@ -116,8 +117,13 @@ export default {
 
 <style scoped>
 .row {
-   padding-top: 30px;
+
+  
+  padding :30px 0px 0px 0px;
+  max-width: 100%;
+
 }
+
 
 #content {
    min-height: 400x;

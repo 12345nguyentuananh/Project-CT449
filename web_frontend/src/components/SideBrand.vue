@@ -1,7 +1,7 @@
 <template>
    <div class="container">
       <div class="box-container">
-         <h3 class="title">Voucher khuyến mãi</h3>
+         <h3 class="title">Vorcher siêu xịn tháng 11 </h3>
          <Splide :options="options" aria-label="My Favorite Images">
             <SplideSlide>
                <img src="../images/brands/voucher1.jpg" alt="Thương hiệu 1" />
@@ -67,7 +67,11 @@ export default defineComponent({
 
 <style scoped>
 .container {
-   margin: 0 auto;
+  
+  padding :0px;
+  max-width: 100%;
+
+
 }
 
 .box-container {
@@ -77,10 +81,10 @@ export default defineComponent({
 
 .title {
    text-align: center;
-   color: #E38B29;
+   color: #169008;
    font-size: 26px;
    font-weight: normal;
-   border-bottom: 3px solid #E38B29;
+   border-bottom: 3px solid #169008;
    margin-bottom: 30px;
    padding: 10px 0;
 }

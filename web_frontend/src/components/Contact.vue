@@ -21,12 +21,12 @@
                </p>
                <p>
                   <i class="fa-solid fa-envelope icon-email"></i>
-                  <a style="color: #000;text-decoration: none;" href="mailto:kiettruong@gmail.com">kiettruong@gmail.com</a>
+                  <a style="color: #000;text-decoration: none;" href="mailto:Kennyanh2426@gmail.com">Kennyanh2426@gmail.com</a>
 
                </p>
                <p>
                   <i class="fa-solid fa-phone icon-phone"></i>
-                  <a style="color: #000;text-decoration: none;" href="tel:+84 56668888">+84 56668888</a>
+                  <a style="color: #000;text-decoration: none;" href="tel:+84 56668888">+84 763901669</a>
                </p>
             </div>
             <div class="col-sm-6">
@@ -36,28 +36,23 @@
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
          </div>
-         <div class="form-group">
-            <label class="col-sm-2 col-form-label">Đóng góp ý kiến</label>
-            <div class="col-sm-12">
-               <textarea class="form-control" row="7"> </textarea>
-               <button type="submit" class="btn btn-primary mt-2 float-left" @click="feedback">
-                  Gửi
-               </button>
-               <button type="reset" class="btn btn-danger mt-2 ml-2 float-left">
-                  Xóa
-               </button>
-            </div>
+       
+         <div class="BaseFooter">
+            <BaseFooter />
          </div>
       </div>
+      
    </div>
 </template>
 
 <script>
 import NavMenu from "../components/NavMenu.vue";
+import BaseFooter from "../components/BaseFooter.vue";
 
 export default {
    components: {
       NavMenu,
+      BaseFooter,
    },
    methods: {
       feedback() {

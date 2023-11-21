@@ -2,7 +2,9 @@
       <div class="container">
          <div class="row">
             <div id="content" class="col-sm-12 page">
+               <p class="center"> Danh sách các sản phẩm của Frazoo </p>
                <div class="header-content d-flex flex-row-reverse">
+                  
                   <form class="form-inline my-2 my-lg-0 p-2">
                      <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search"
                         v-model="searchText">
@@ -135,10 +137,20 @@ export default {
    padding-top: 25px;
 }
 
+.center {
+   weight: 100%;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #89c610;
+   padding: 0px;
+}
 .header-content {
    display: flex;
-   padding: 10px 0px 10px 0px;
-   border-bottom: 3px solid #E38B29;
+   justify-content: center;
+   padding: 10px 0px;
+   border-bottom: 3px solid #169008;
    font-weight: normal;
    font-size: 22px;
 }
@@ -151,7 +163,7 @@ export default {
    margin-top: 15px;
    font-size: 20px;
    font-weight: bold;
-   color: #E38B29;
+   color: #169008;
 }
 
 .product-grid {
@@ -174,7 +186,7 @@ export default {
    line-height: 22px;
    text-decoration: none;
    padding: 5px;
-   color: #E38B29;
+   color: #169008;
    margin: 0 auto;
    width: 100%;
    overflow: hidden;
@@ -202,12 +214,28 @@ export default {
 }
 
 .btn-cart {
-   background-color: #E38B29;
+   background-color: #169008;
    color: #fff;
    border: 0;
    border-radius: 3px;
 }
 
 .btn-cart:hover {
-   background-color: #be731c;
-}</style>
+   background-color:#169008;
+}
+
+.container {
+  
+  padding :0px;
+  max-width: 100%;
+
+
+}
+
+.form-inline{
+   weight :100%;
+}
+
+</style>
+
+

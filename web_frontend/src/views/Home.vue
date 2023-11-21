@@ -1,10 +1,16 @@
 <template>
-   <div class="wrapper">
+   <div class="box">
       <div class="header">
          <div class="nav-menu">
             <NavMenu />
          </div>
       </div>
+      <div class="container">
+         <div class="slider-brand">
+            <SideBrand />
+         </div>
+      </div>
+      
       <div class="container">
          <div class="slider">
             <BaseSlider />
@@ -13,11 +19,10 @@
             <ProductScreen />
          </div>
       </div>
-      <div class="container">
-         <div class="slider-brand">
-            <SideBrand />
-         </div>
-      </div>
+      <div class="listcategory">
+                <Menu />
+            </div>
+    
       <BaseFooter />
    </div>
 </template>
@@ -26,6 +31,7 @@
 import NavMenu from "../components/NavMenu.vue";
 import BaseSlider from "../components/BaseSlider.vue";
 import ProductScreen from "../components/ProductScreen.vue";
+import Menu from '../components/Menu.vue';
 import SideBrand from "../components/SideBrand.vue";
 import BaseFooter from "../components/BaseFooter.vue";
 
@@ -35,8 +41,8 @@ export default {
       NavMenu,
       BaseSlider,
       ProductScreen,
+      Menu,
       SideBrand,
-
       BaseFooter
    },
 };
@@ -53,6 +59,7 @@ export default {
 .header {
    width: 100%;
    height: auto;
+   
 }
 .container {
    width: 100%;
@@ -63,6 +70,7 @@ export default {
 .slider {
    width: 100%;
    height: auto;
+   padding:70px 0px 0px 0px ;
 }
 .listcategory {
    width: 100%;
@@ -71,5 +79,13 @@ export default {
 .slider-brand {
    width: 100%;
    height: 150px;
+   padding :70px 0px 0px 0px ;
 }
+
+.none{
+   padding: 10px
+}
+
+
+
 </style>

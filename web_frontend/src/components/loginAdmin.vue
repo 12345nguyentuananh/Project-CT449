@@ -132,7 +132,7 @@
     /* border: 1px solid #E38B29; */
  }
  .card-header h3 {
-    color: #E38B29;
+    color: #169008;
  }
  .card-header{
     background-color: white;
@@ -144,7 +144,7 @@
  .input-group-prepend span { 
     width: 50px;
     background-color: white;
-    color: #E38B29;
+    color: #169008;
     border: 0 !important;
  }
  input:focus {
@@ -152,28 +152,28 @@
     box-shadow: 0 0 0 0 !important;
  }
  .login_btn {
-    color: #E38B29;
+    color: #169008;
     border-radius: 20px;
-    border: 1px solid #E38B29;
+    border: 1px solid #169008;
     width: 50%;
     margin-left: 25%;
     /* margin-right: 25%; */
  }
  .login_btn:hover {
     color: white;
-    background-color: #E38B29;
+    background-color: #169008;
  }
  .card-footer{
     background-color: white;
  
  }
  .links {
-    color: #E38B29;
+    color: #169008;
  }
  .links a {
     margin-left: 4px;
     text-decoration: none;
-    color:#E38B29;
+    color:#169008;
  }
  </style>
  

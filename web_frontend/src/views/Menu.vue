@@ -1,11 +1,16 @@
 <template>
     <div class="wrapper">
         <div class="header">
+            
+          
             <div class="nav-menu">
                 <nav-menu />
             </div>
+          
         </div>
         <div class="container">
+            
+        
             <div class="listcategory">
                 <Menu />
             </div>
@@ -43,11 +48,13 @@ export default {
 .container {
    width: 100%;
    height: auto;
-   margin-top: 5px;
+   margin-top: -10px;
    margin-bottom: 20px;
 }
 .listcategory {
    width: 100%;
    height: auto;
+   padding-top:80px;
+ 
 }
 </style>
